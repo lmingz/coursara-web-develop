@@ -1,58 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello web dev</title>
+	<title>try out semantic tags</title>
 </head>
-<body style="background-color:powderblue;">
-	<h1>Hello web dev</h1>
-	<button style="width: 300px; height: 50px">
-		<form action="https://google.com" style="width: 250; height: 40">
-	    	<input type="submit" value="Go to Google" />
-		</form>
-	</button>
-	<form>
-		<div>
-			<label>user_name</label>
-			<input type="text" name="user_name">
-		</div>
-		<div>
-			<label>passowrd</label>
-			<input type="test" name="passowrd">
-		</div>
-		<button>
-			<label>sign in</label>
-		</button>
-		<button>
-			<label>sign up</label>
-		</button>
-		<br>
-		<div>
-			<label>Message</label>
-			<textarea name="message"></textarea>
-		</div>
-	</form>
-	<ul>
-		<label>
-			<h2>unordered list</h2>
-		</label>
-		<li>first point</li>
-		<li>second point</li>
-		<li>
-			<h3>3rd point in h3</h3>
-		</li>
-		<ul>
-			<label>
-				<h3>nested list</h3>
-				<li>1st point in nested list</li>
-			</label>
-		</ul>
-	</ul>
-	<ol>
-		<label>
-			<h2>ordered list</h2>
-		</label>
-		<li>1st in ordered list</li>
-		<li style="font: bold;">2nd <strong>sdad </strong>in <em>xieti </em>ordered list</li>
-	</ol>
+<body>
+	<header id="page-header">
+		<h1>
+			try out sematic tags
+		</h1>
+	</header>
+	<section>
+		<article>
+			<h3>1st article</h3>
+			<small>posted on 06/13</small>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="google.com">google it</a>
+		</article>
+		<article>
+			<h3>2nd article</h3>
+			<small>posted on 06/13</small>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="temp.html">google it</a>
+		</article>
+		<article>
+			<h3>3rd article</h3>
+			<small>posted on 06/13</small>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="google.com">google it</a>
+		</article>
+	</section>
+
+	<aside>
+		<nav></nav>
+			<ul>
+				<li><a href="#">samepage1</a></li>
+				<li><a href="#">samepage2</a></li>
+				<li><a href="#">samepage3</a></li>
+			</ul>
+		</nav>
+	</aside>
+
+	<footer id="page-footer">
+		<p>Copyright &copy 2020</p>
+	</footer>
 </body>
 </html>
