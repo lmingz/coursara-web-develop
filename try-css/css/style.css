@@ -1,0 +1,60 @@
+body h1{
+	color: navy;
+	background: coral;
+	text-align: center;
+	/*margin: 50px;*/
+	border: 10px gray solid;
+
+}
+body p{
+	color: green;
+}
+body{
+	text-align: left;
+	font-family: Arial;
+
+}
+
+.container{
+	text-align: center;
+}
+.my-box{
+	background: coral;
+	width: 60%;
+	align-content: center;
+	text-align: left;
+	align-content: center;
+	border: 10px red solid;
+	display: inline-block;
+}
+
+.categories{
+	border: 1px grey dotted;
+	padding: 10px
+	border-radius: 15px;
+	margin: 20px;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	list-style-image: url('../images/ok-hand.jpg');
+}
+.categories li{
+	margin: 30px;
+	text-align: left;
+}
+
+a{
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
