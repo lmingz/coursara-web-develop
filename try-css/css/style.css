@@ -28,6 +28,14 @@ body{
 	display: inline-block;
 }
 
+.my-box a{
+	color: navy;
+	text-decoration: none;
+}
+
+.my-box a:hover{
+	color: purple;
+}
 .categories{
 	border: 1px grey dotted;
 	padding: 10px
@@ -47,14 +55,76 @@ body{
 	text-align: left;
 }
 
-a{
+.categories a{
 	color: orange;
 	text-decoration: none;
 }
 
-a:hover{
+.categories a:hover{
 	color: red;
 }
-a:active{
+.categories a:active{
 	color: green;
+}
+
+.my-form{
+	padding: 30px;
+}
+
+.my-form label{
+	display: block;
+	margin-top: 10px;
+}
+.my-form input[type="text"], .my-form textarea{
+	width: 100%
+}
+
+.button{
+	background-color: black;
+	color:white;
+	padding: 10px 20px;
+	border: none;
+	font-size: 30;
+}
+.button:hover{
+	color:black;
+	background:red;
+}
+
+.my-blog{
+	float: left;
+	box-sizing:border-box;
+	border: 1px dotted;
+	width: 33.3%
+}
+.my-blog p{
+	color:red;
+}
+.clr{
+	clear:both;
+}
+
+#leftblock{
+	box-sizing:border-box;
+	float: left;
+	width: 80%;
+}
+#rightblock{
+	background-color: powderblue;
+	box-sizing:border-box;
+	float:right;
+	width: 20%;
+}
+
+.my-list li:first-child{
+	background-color: red;
+}
+.my-list li:last-child{
+	background-color: red;
+}
+.my-list li:nth-child(odd){
+	background-color: grey;
+}
+.my-list li:nth-child(5){
+	background-color: red;
 }
